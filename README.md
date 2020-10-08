@@ -7,7 +7,7 @@ Running on Ubuntu 18.04
 
 Current file structure:
 
-/var/www/
+/var/www/  
 |--html/  
 |   |--home.php  
 |   |--login.php  
