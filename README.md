@@ -8,8 +8,8 @@ Running on Ubuntu 18.04
 Current file structure:
 
 /var/www/
-|--html/
-|   |--home.php
-|   |--login.php
-|   |--verify_user.php
-|   |--errorPage.php
+|--html/  
+|   |--home.php  
+|   |--login.php  
+|   |--verify_user.php  
+|   |--errorPage.php  
