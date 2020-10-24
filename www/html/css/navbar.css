@@ -1,0 +1,76 @@
+.topnav {
+  display: inline-block;
+  background: #0033ab;
+  width: 100%;
+}
+
+.dropdown {
+  float: left;
+  transition: background 0.25s linear;
+  background: #0033ab;
+}
+
+.dropdown button {
+  font-size: 20px;
+}
+
+.drpbtn {
+  border: none;
+  padding: 16px;
+  color: #f7b512;
+  background: none;
+}
+
+.drpbtn a {
+  text-decoration: none;
+  color: #f7b512;
+}
+
+.topnav_btn {
+  padding: 16px;
+  float: right;
+  transition: background 0.25s linear;
+  background: #0033ab;
+  fontsize: 20px;
+}
+
+.topnav_btn a {
+  text-decoration: none;
+  color: #f7b512;
+}
+
+.drp-content {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.25s, opacity 0.25s linear;
+  position: absolute;
+  background-color: #388cff;
+  min_width: 160px;
+  z-index: 1;
+}
+
+.drp-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  float:none;
+}
+
+.dropdown:hover {
+  background: #388cff;
+}
+
+.drp-content a:hover {
+  background: blue;
+}
+
+.topnav_btn:hover {
+ background: #388cff;
+}
+
+.dropdown:hover .drp-content {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+}

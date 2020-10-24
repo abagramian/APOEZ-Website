@@ -1,0 +1,11 @@
+body {
+  background: white;
+}
+
+.header {
+  text-align: center;
+}
+
+.header p {
+  font-size: 50px;
+}
